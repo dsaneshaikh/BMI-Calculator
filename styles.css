@@ -1,0 +1,50 @@
+@import url("https://fonts.googleapis.com/css2?family=Figtree:ital,wght@0,300..900;1,300..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Poppins";
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-image: url(/Assets/background.svg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.calculator {
+  height: 350px;
+  width: 400px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border: 1px solid #212121;
+  border-radius: 5%;
+  background-color: #ebae78;
+}
+
+.inputs #weight {
+  margin: 30px 0 30px 0;
+}
+
+.inputs #height {
+  margin: 30px 0 30px 0;
+}
+.inputs {
+  font-weight: 500;
+}
+
+button {
+  font-size: 20px;
+  background-color: #84c5a7;
+  border: none;
+  border-radius: 7px; /* Adjusts the roundness of the corners */
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #7abb9b;
+}
