@@ -13,6 +13,6 @@ submit.addEventListener("click", () => {
     const heightInMeters = height / 100;
 
     const bmi = weight / (heightInMeters * heightInMeters);
-    result.textContent = `BMI : ${bmi.toFixed(2)} I love Laiba`;
+    result.textContent = `BMI : ${bmi.toFixed(2)}`;
   }
 });
